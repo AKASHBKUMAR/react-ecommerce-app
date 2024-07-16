@@ -29,10 +29,15 @@
 .nav-bar li a:hover {
   background-color: #ddd;
   color: black;
+  
+
 }
 
 /* Add active class styling if you want to highlight the current page */
 .nav-bar li a.active {
   background-color: #4CAF50;
   color: white;
+}
+.nav-bar{
+  text-align: center;
 }
