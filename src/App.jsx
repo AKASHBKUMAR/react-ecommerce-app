@@ -8,7 +8,6 @@ const App = () => {
     return (
         <CartProvider>
             <NavigationComponent />
-            <HomeComponent />
         </CartProvider>
     )
 }

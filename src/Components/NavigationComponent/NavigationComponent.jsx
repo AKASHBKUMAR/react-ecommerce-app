@@ -13,13 +13,13 @@ const NavigationComponent = () => {
             <BrowserRouter>
                 <nav className='nav-bar'>
                     <ul>
-                        <li id='home'><Link to='/'>Home</Link></li>
+                        <li id='home'><Link to='/react-ecommerce-app'>Home</Link></li>
                         <li id='cart'><Link to='/cart'>Cart</Link></li>
                     </ul>
                 </nav>
 
                 <Routes>
-                    <Route exact path='/' element={<HomeComponent/>}></Route>
+                    <Route exact path='/react-ecommerce-app' element={<HomeComponent/>}></Route>
                     <Route exact path='/cart' element={<CartComponent/>}></Route>
                 </Routes>
             </BrowserRouter>
